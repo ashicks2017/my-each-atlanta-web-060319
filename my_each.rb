@@ -6,7 +6,7 @@ def my_each(collection)
    yield(array[i])
     i = i + 1
 end
-   array
+   collection
 end
 
 my_each(collection) {|i| puts i }
