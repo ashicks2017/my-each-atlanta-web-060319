@@ -1,12 +1,12 @@
 collection = [1, 2, 3, 4]
 
-def my_each(array) 
+def my_each(collection) 
   
-  while i < array.length
+  while i < collection.length
    yield(array[i])
     i = i + 1
 end
    array
 end
-end
+
 my_each(collection) {|i| puts i }
