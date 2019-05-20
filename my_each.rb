@@ -1,3 +1,4 @@
+
 def my_each(array) 
   while i < array.length
    yield(array[i])
@@ -6,4 +7,4 @@ end
    array
 end
 
-my_each(collection) {|i| i puts
+my_each(collection) {|i| puts i }
