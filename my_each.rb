@@ -6,4 +6,4 @@ end
    array
 end
 
-my_each
+my_each(collection) {|i| i puts
